@@ -29,28 +29,28 @@ Backend:
 
 ## Project Structure
 
-
+```
 Hospital-Management-System/
 │
 ├── backend/
-│ └── healthcare-backend-architecture/
-│ ├── models/
-│ ├── routers/
-│ ├── schemas/
-│ ├── main.py
-│ ├── database.py
-│ ├── requirements.txt
-│ └── healthcare.db
+│   └── healthcare-backend-architecture/
+│       ├── models/
+│       ├── routers/
+│       ├── schemas/
+│       ├── main.py
+│       ├── database.py
+│       ├── requirements.txt
+│       └── healthcare.db
 │
 ├── hospital-frontend/
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│ └── ...
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...
 │
 ├── .gitignore
 └── README.md
-
+```
 
 ## Installation and Setup
 
