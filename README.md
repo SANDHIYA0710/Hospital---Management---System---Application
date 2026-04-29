@@ -59,37 +59,37 @@ Hospital-Management-System/
 Navigate to backend directory:
 
 
-cd backend/healthcare-backend-architecture
+          cd backend/healthcare-backend-architecture
 
 
 Create virtual environment:
 
 
-python -m venv venv
+          python -m venv venv
 
 
 Activate environment:
 
 Windows:
 
-venv\Scripts\activate
+          venv\Scripts\activate
 
 
 Install dependencies:
 
 
-pip install -r requirements.txt
+         pip install -r requirements.txt
 
 
 Run backend server:
 
 
-uvicorn main:app --reload
+         uvicorn main:app --reload
 
 
 Backend runs at:
 
-http://127.0.0.1:8000
+         http://127.0.0.1:8000
 
 
 ---
@@ -99,24 +99,24 @@ http://127.0.0.1:8000
 Navigate to frontend directory:
 
 
-cd hospital-frontend
+        cd hospital-frontend
 
 
 Install dependencies:
 
 
-npm install
+         npm install
 
 
 Start frontend:
 
 
-npm start
+          npm start
 
 
 Frontend runs at:
 
-http://localhost:3000
+          http://localhost:3000
 
 
 ---
@@ -149,15 +149,7 @@ Example:
 
 baseURL: "http://127.0.0.1:8000
 "
-
-
----
-
-## Screenshots
-
-(Add application screenshots here such as login page, dashboard, doctor and patient management UI.)
-
----
+--- 
 
 ## Notes
 
